@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vxt#zoe2le@l716y7ek24piw@9e-14-wtxmea6fm!scl&lvlbn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 temp=os.path.join(BASE_DIR,'templates')
 
